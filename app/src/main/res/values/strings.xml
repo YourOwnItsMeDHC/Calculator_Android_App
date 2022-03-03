@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deepak\'s Calculator</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+</resources>

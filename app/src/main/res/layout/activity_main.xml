@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginStart="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="40dp"
+    android:layout_marginRight="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="calculatorlogo"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/editFirstValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter First Value"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:textColorHint="#78909C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editSecondValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Second Value"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:textColorHint="#78909C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="+"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#20BACD"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:text="+" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="-"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#20BACD"
+        tools:ignore="TextContrastCheck"
+        tools:text="-" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="*"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#20BACD"
+        tools:ignore="TextContrastCheck"
+        tools:text="*" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="/"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#20BACD"
+        tools:ignore="TextContrastCheck"
+        tools:text="/" />
+
+</LinearLayout>
